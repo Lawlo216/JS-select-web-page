@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXTure</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="jsSelect.css">
+</head>
+<body>
+    <!-- NAV -->
+    <div id="nav">
+		<ul>
+			<li class="nav-item"><a href="#"><span data-text="HøME">HøME</span></a></li>
+			<li class="nav-item"><a href="#"><span data-text="ABOUT">ABOUT</span></a></li>
+			<li class="nav-item"><a href="#"><span data-text="SERVICR">SERVICE</span></a></li>
+			<li class="nav-item"><a href="#"><span data-text="CONTACT">CONTACT</span></a></li>
+		</ul>
+		<div class="fixed-bar">
+			<div id="toggle" onclick="toggle()"><span></span></div>
+			<div class="white-bar">METODOLOGÍA</div>
+		</div>
+    </div>
+    
+    <main class="wrapper" id="sec">
+    <!-- 1.Header -->
+    <header class="showcase">
+        <div class="slider">
+            <div id="rgbKineticSlider" class="rgbKineticSlider"></div>
+        </div>
+        <!--Background-hover-blur Version-->
+        <!-- <div class="background"></div> -->
+        <div class="showcase-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In adipisci facilis deleniti alias nemo fugit assumenda facere quam quas recusandae.</p><br><br>
+            <a href="#" class="btn">Discover</a>
+        </div>
+    </header>
+
+    <!-- 2.Tabs -->
+    <section class="tabs">
+        <div class="container">
+            <div id="tab-1" class="tab-item tab-border">
+                <i class="fas fa-mountain fa-2x"></i>
+                <p class="hide-sm">PLACES TO GO</p>
+            </div>
+            <div id="tab-2" class="tab-item">
+                <i class="fas fa-hiking fa-2x"></i>
+                <p class="hide-sm">THINGS TO DO</p>
+            </div>
+            <div id="tab-3" class="tab-item">
+                <i class="fas fa-calendar-check fa-2x"></i>
+                <p class="hide-sm">PLANNING YOUR TRIP</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tab-content">
+        <div class="container">
+            <!-- Tab Content 1 -->
+            <div id="tab-1-content" class="tab-content-item show">
+                <div class="tab-1-content-inner">
+                    <div>
+                        <p> Steep mountains that rise straight up from the sea create the perfect surroundings for great walking experiences with panoramic views.
+                            The hikes often start within walking distance of the town centre or a hotel or guesthouse in smaller places, which means you have more time for excursions during your holiday.<br><br>
+                            From the heights of mountains to the depths of majestic fjords, from breathtaking scenery to dynamic urban centres, Fjord Norway is the country's most diverse and spectacular region.<br><br> 
+                            Whether you choose to explore from the comfort of a boat, by car, or on a hike, you'll soon discover what the world is talking about.</p><br><br>
+                        <a href="#" class="btn">Show More</a>
+                    </div>
+                    <img src="mountain.jpg" alt="">
+                </div>
+            </div>
+            <!-- Tab Content 2 -->
+            <div id="tab-2-content" class="tab-content-item">
+                <div class="tab-2-content-top">
+                    <p class="text-lg">
+                        Adventure is around every corner. Hiking or skiing with a fjord view, thrilling guided glacier hikes, or relaxing fjord cruises and sightseeing trips where you get to see the best of Norwegian nature. 
+                    </p>
+                    <a href="#" class="btn">What to do</a>
+                </div>
+                <div class="tab-2-content-bottom">
+                    <div>
+                        <img src="thing1.png" alt="">
+                        <p>Hiking</p>
+                        <p>Hike along the many fjords, in the national parks, on the glaciers with a guide or climb the mountains by the coast. </p>
+                    </div>
+
+                    <div>
+                        <img src="thing2.png" alt="">
+                        <p>Camping</p>
+                        <p>Whether you want to frolic with friends or commune with nature, Hong Kong has lots of options for sleeping in the open air. </p>
+                    </div>
+
+                    <div>
+                        <img src="thing3.png" alt="">
+                        <p>Kayak</p>
+                        <p>With stunning coastal areas, fantastic fjords and some of the best rivers for river kayaking, offers adventures for padlers. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tab Content 3 -->
+            <div id="tab-3-content" class="tab-content-item">
+                <div class="tab-3-content">
+                    <h3>Exploring Mountain Trails</h3><br>
+                    <p class="text-md">Not many places in the world offer the same combination of fjords and mountains as Fjord Norway. 
+                        Steep mountains that rise straight up from the sea create the perfect surroundings for great walking experiences with panoramic views.</p><br>
+                    <a href="#" class="btn">MAKE APPOINTMENT</a>
+                </div>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Easy</th>
+                            <th>Moderate</th>
+                            <th>Diffcult</th>
+                            <th>Activities</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Preikestolen – by the Lysefjord in Ryfylke</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fas fa-biking"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Trolltunga - he most spectacular hikes</td>
+                            <td></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td> <td><i class="fas fa-skating"></i></td></td>
+                        </tr>
+                        <tr>
+                            <td>Aurlandsdalen - beautiful and rich in culture</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-skiing"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Mount Skåla - the highest mountain with fjord</td>
+                            <td></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td></td>
+                            <td><i class="fas fa-snowboarding"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Romsdalseggen - offering spectacular views</td>
+                            <td></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td></td>
+                            <td><i class="fas fa-skiing-nordic"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3.BG change -->
+    <section class="bg-change">
+        <div class="bg-change-content-1">
+            <h2>Plan easy, <br>  pay less <br> and Experience</h2>
+            <div id="project1" class="project" class="counters">
+                <div class="container">
+                    <div class="counter" data-target="60000">0</div>
+                </div>
+            </div>
+        </div>
+        <!-- <video autoplay loop class="video-background" muted plays-inline>
+            <source src="video.mp4" type="video/mp4">
+        </video> -->
+        <!-- 3D Mouse Hover -->
+        <article class="img">
+            <div class="img-wrapper">
+                <div class="img-inner">
+                    <img class="img-holder" src="thing2.png" alt="" />
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="bg-change">
+        <video autoplay loop class="video-background" muted plays-inline>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        <div class="video-block"></div>
+        <div class="bg-change-content-2">
+            <h2>Adventure with </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            <br><br>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            <br><br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" class="btn">MAKE APPOINTMENT</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="typing-container">
+                <h2><span class="txt-type" data-wait="3000" data-words='["EXPLORE","ENJOY","DISCOVER"]'></span><br>THE NATURE</h2>
+            </div>
+            <div class="footer-container">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Who are we</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Plan a trip</a></li>
+                    <li><a href="#">Our Partner</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <ul class="icon">
+                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="copyRight">© 2020 Copyright:TEXTúRE</div>
+        </div>
+    </footer>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- TweenMax -->
+    <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/libs/TweenMax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/libs/imagesLoaded.pkgd.min.js"></script>
+
+    <!-- Pixi JS -->
+    <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/libs/pixi.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/libs/pixi-filters.min.js"></script>
+
+    <!-- Slider Plugin -->
+    <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/rgbKineticSlider.js"></script>
+
+    <script src="jsSelect.js"></script>
+</body>
+</html>
